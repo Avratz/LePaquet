@@ -1,0 +1,379 @@
+/***********************/
+  /* AUTHOR: Nicolas Picardi */
+  /* VER. 1.0       */
+  /* INDEX */
+  /* 0. FONTS AND COLOURS */
+  /* 1. BASIC */
+  /* 2. NAV BAR */
+  /* 3. SECTIONS */
+/***********************/
+*{
+    box-sizing: border-box;
+}
+
+.row{
+  margin: 0;
+}
+/********//*0.FONTS AND COLOURS*//********/
+  @font-face {
+      font-family: Market;
+      src: url(../font/Market_Deco.ttf);
+  }
+
+  .ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .market{
+    font-family: Market;
+  }
+
+  /*BASIC COLOURS*/
+
+  .p-green{
+    color: #0C783D;
+  }
+  .m-green {
+    color: #0B7A6F;
+  }
+  .d-green{
+    color: #0D443C;
+  }
+
+  /*sizes*/
+
+  .f-small{
+    font-size: 0.8rem;
+  }
+  .f-small-medium{
+    font-size: 1.2rem;
+  }
+  .f-medium-large{
+    font-size: 1.6rem;
+  }
+/********//*1.BASIC*//********/
+
+  body{
+    background-color: #D3BDA9;
+    margin: auto;
+    color: #0D443C;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .fa-arrow-up{
+    position: fixed;
+    bottom: 0.5em;
+    right: 2%;
+    z-index:  999;
+    font-size: 2em;
+    color: rgba(13, 68, 60, 0.7);
+  }
+
+/********//*2.NAV BAR*//********/
+  .logofull{
+    position: absolute;
+    top: -90px;
+    left: 38%;
+    margin: auto;
+  }
+  .bg-imgl{
+    background: #ede7d8 url("../img/bg.jpg") no-repeat 100% top;
+  }
+  .bg-lepaquetf{
+    background-color: #0B7A6F;
+    position: relative
+
+  }
+  .bg-lepaquet{
+    background-color: #0B7A6F;
+    position: relative
+  }
+
+  .navbar-toggler{
+    color: white;
+  }
+  .navbar-brand {
+    width: 100%;
+  }
+  nav {
+
+  }
+  .nav a {
+    color: white;
+    font-family: Market;
+  }
+  .nav-link, .nav-link a  {
+    color: white;
+    font-family: Market;
+  }
+
+  .nav-l {
+      position: absolute;
+      display: block;
+  }
+  .nav-l > i {
+      position: absolute;
+      display: inline-block;
+      width: 0;
+      height: 0;
+      line-height: 0;
+      border: 27px solid #0B7A6F;
+      border-left: 27px solid transparent;
+      left: -4em;
+      top: -8px;
+  }
+  .nav-r {
+      position: absolute;
+      display: block;
+      width: 68px;
+      height: 68px;
+      right: -4em;
+      top: 0;
+  }
+  .nav-r > i {
+      position: absolute;
+      display: inline-block;
+      width: 0;
+      height: 0;
+      line-height: 0;
+      border: 27px solid #0B7A6F;
+      border-right: 27px solid transparent;
+  }
+
+/********//*3.SECTIONS*//********/
+  .first::first-letter{
+    font-family: Market;
+    font-size: 2.5em;
+  color: #0B7A6F;
+  }
+  .special{
+    background: url("../img/lepaquet-hombre.png") left bottom no-repeat;
+  }
+  .ribbon{
+      background: url("../img/ribbon.svg") left top no-repeat;
+      background-size: 6% 12%;
+  }
+  .man{
+    height: 340px;
+  }
+  .sec-col{
+    padding-top: 1.7em;
+  }
+
+  .fort{
+
+  }
+  .sections-headers{
+    background-color: rgba(11, 122, 111, 0.2);
+    font-family: Market;
+    height: 68px;
+    width: 100%;
+    position: relative;
+
+  }
+
+  .img-headline{
+    max-width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+  }
+
+  .lucy {
+    font-family: Market;
+    font-size: 1.3rem;
+    position: relative;
+    margin: auto;
+  }
+
+  .s-t {
+      position: relative;
+      display: block;
+      width: 68px;
+      height: 68px;
+  }
+  .s-t > i {
+      position: absolute;
+      display: inline-block;
+      width: 0;
+      height: 0;
+      line-height: 0;
+      border: 34px solid rgba(11, 122, 111, 0.2);
+      border-right: 34px solid transparent;
+      left: 0em;
+      top: 0em;
+      display: inline-block;
+  }
+
+  .s-t-l {
+      position: relative;
+      display: block;
+      width: 68px;
+      height: 68px;
+  }
+  .s-t-l > i {
+      position: absolute;
+      display: inline-block;
+      width: 0;
+      height: 0;
+      line-height: 0;
+      border: 34px solid rgba(11, 122, 111, 0.1);
+      border-right: 34px solid transparent;
+      left: 0em;
+      top: 0em;
+      display: inline-block;
+  }
+  .s-t-l2 {
+      position: relative;
+      display: block;
+      width: 68px;
+      height: 68px;
+  }
+  .s-t-l2 > i {
+      position: absolute;
+      display: inline-block;
+      width: 0;
+      height: 0;
+      line-height: 0;
+      border: 34px solid rgba(11, 122, 111, 0.1);
+      border-left: 34px solid transparent;
+      left: 0em;
+      top: 0em;
+      display: inline-block;
+  }
+  .headlines-productos{
+    border-top: 1px dashed #0B7A6F;
+    border-bottom: 1px dashed #0B7A6F;
+    height: 125px;
+  }
+  .headlines-productos-2{
+    background-color: rgba(11, 122, 111, 0.1);
+    font-family: Market;
+    height: 68px;
+    width: 45%;
+    float:left;
+    display: inline-block;
+    padding-top: 0.8em;
+  }
+  .ong-head{
+    padding-top: 0em;
+  }
+
+  .diamond{
+    text-align: left;
+    list-style-type:none;
+    padding-left:0;
+  }
+  .diamond li:before {
+      content: "\2666";
+      padding-right: 0.4rem;
+   }
+   .so-icons{
+     border-radius: 50%;
+     font-size: 1.5rem;
+     border: 3px solid;
+     margin: auto;
+   }
+   .fa-facebook{
+     padding: 1rem 1.3rem;
+   }
+   .social-icons{
+     width: 100%;
+     text-align: center;
+   }
+   .sumate{
+     font-family: Market;
+   }
+   .sumate label{
+     border: 1px solid #0B7A6F;
+     background-color: #F9EDDC;
+     padding: 0.8rem;
+   }
+
+   .form-control {
+     border: 1px solid #0B7A6F;
+     background-color: #F9EDDC;
+   }
+   .btn-secondary-outline{
+     border: 1px solid #0B7A6F;
+      color: #0B7A6F;
+   }
+   .btn-secondary-outline:hover{
+      background-color: #0B7A6F;
+      color: white;
+   }
+
+
+/********//*99.OTHERS*//********/
+
+
+
+/********/ /*MEDIA Q*/ /*******/
+
+@media (min-width: 544px){
+  .sections-headers {
+    width: 80%;
+  }
+  .headlines-productos-2{
+    width: 50%;
+  }
+  .img-headline{
+    left: 70%;
+  }
+}
+@media (min-width: 768px) {
+  .headlines-productos-2{
+    width: 60%;
+      padding-top: 1.4em;
+  }
+  .mm-r-3{
+      margin-right: 3em;
+  }
+  .mm-l{
+      margin-left: 1em;
+  }
+  .mm-3{
+  margin-left: 3em;
+  margin-right: 3em;
+  }
+  .ong-head{padding-top: 0.6em;}
+
+  .fa-arrow-up{
+    right: 4%;
+}
+
+@media (min-width: 992px) {
+  .img-headline{
+    left: 80%;
+  }
+  .bg-imgl{
+    padding-top: 5rem;
+  }
+  .sections-headers {
+    width: 85%;
+  }
+
+
+}
+
+@media (min-width: 1200px) {
+  .sections-headers {
+    width: 89%;
+  }
+  .navbar-nav .nav-link {
+    margin-right: 2em;
+  }
+    .fa-arrow-up{
+      right: 6%;
+      font-size: 2.5em;
+  }
+}
+@media (min-width: 1920px){
+  .fa-arrow-up{
+    right: 21%;
+    font-size: 2.5em;
+}
+}
